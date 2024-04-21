@@ -26,7 +26,7 @@ submitButton.addEventListener('click', () => {
   const sortedTable = Object.entries(frequencyTable).sort((a, b) => b[1] - a[1]);
   
   // most frequent words
-  const top5 = sortedTable.slice(0, 10);
+  const top5 = sortedTable.slice(0, 5);
   
   // Render the frequency table to the UI
   const table = document.createElement('table');
