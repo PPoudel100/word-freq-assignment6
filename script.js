@@ -36,8 +36,8 @@ submitButton.addEventListener('click', () => {
   const headRow = document.createElement('tr');
   const headCell1 = document.createElement('th');
   const headCell2 = document.createElement('th');
-  headCell1.textContent = 'WORDS_GIVEN';
-  headCell2.textContent = 'WORDS_FREQUENCY';
+  headCell1.textContent = 'WORD_NAME';
+  headCell2.textContent = 'WORD_FREQUENCY';
   headRow.appendChild(headCell1);
   headRow.appendChild(headCell2);
   tableHead.appendChild(headRow);
